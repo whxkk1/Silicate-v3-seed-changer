@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cstdint>
 #include <Windows.h>
 
 std::string openFileDialog() //change this if you are not on windows
@@ -66,3 +67,4 @@ int main() {
     changeSeed(macro, seed);
 
 }
+
