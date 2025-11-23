@@ -3,7 +3,7 @@
 #include <string>
 #include <Windows.h>
 
-std::string openFileDialog()
+std::string openFileDialog() //change this if you are not on windows
 {
     OPENFILENAMEA ofn;
     char fileName[MAX_PATH] = "";
@@ -64,4 +64,5 @@ int main() {
     std::cin >> seed;
 
     changeSeed(macro, seed);
+
 }
